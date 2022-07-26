@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: linear-gradient(to right, rgb(243, 69, 69), rgb(250, 62, 119), rgb(220, 33, 177), rgb(243, 159, 209));
+    height: 10vh;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+
+}
+
+.heading-text {
+    position: block;
+    margin-left: 39vw;
+    padding-top: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+
+}
+
+footer {
+    background: linear-gradient(to right, red, rgb(237, 61, 114), rgb(220, 33, 177), rgb(243, 159, 209));
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactinfo {
+    margin: 10px;
+}
+
+.container {
+    height: 130vh;
+}
+
+.slider {
+    background-color: blue;
+    height: 25vh;
+}
+
+.sliderimg {
+    height: 25vh;
+    width: 100vw;
+}
+
+.content {
+    height: 25vh;
+    background: linear-gradient(to right, rgb(249, 92, 139), rgb(242, 159, 223), rgb(243, 159, 209));
+    margin: 7px;
+    border-radius: 6px 0 6px 0;
+    display: flex;
+}
+
+.content-text {
+    font-size: 25px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 7px;
+}
+
+.cntimg {
+    height: 26vh;
+    width: 12vw;
+    margin-top: 4px;
+    margin-left: 4px;
+    border-radius: 4px;
+    border: 1px solid whitesmoke;
+
+}
+
+.content-img {
+    margin-left: 10px;
+}
+
+.content {
+    overflow: scroll;
+}
+
+.container2 {
+    height: 75vh;
+
+
+}
+
+.head-about {
+    position: relative;
+    left: 20vw;
+}
+
+.content-about {
+    width: 50vw;
+    height: 65vh;
+    margin-left: 370px;
+    background: linear-gradient(to right, rgb(250, 108, 108), rgb(251, 127, 166), rgb(245, 194, 238));
+    border-radius: 0 15px 0 15px;
+    border: 2px solid rgb(185, 178, 178);
+    margin-top: 32px;
+    color: white;
+}
+
+.about-text {
+    padding: 22px;
+}
+
+@keyframes translating {
+    0% {
+        transform: translate(0vw);
+    }
+
+    100% {
+        transform: translate(100vw);
+    }
+
+}
+
+.slidercontact {
+    margin: 10px;
+    display: block;
+    position: relative;
+    right: 600px;
+    bottom: 55px;
+    animation: translating 15s ease infinite;
+    color: black;
+}
+
+.contact-content {
+    text-align: center;
+    height: 45vh;
+    margin: 10px;
+    position: relative;
+    top: 2vh;
+
+
+
+    border-radius: 10px;
+
+
+}
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(359deg)
+    }
+
+
+}
+
+.flower1 {
+    width: 80px;
+    height: 78px;
+    position: relative;
+
+    animation: rotating 6s ease-in infinite;
+    display: inline-block;
+    left: 1vw;
+}
+
+.flower2 {
+    width: 80px;
+    height: 78px;
+    position: relative;
+    animation: rotating 6s ease-in infinite;
+    display: inline-block;
+    left: 91vw;
+    top: -4vw;
+}
+
+.contact-texting {
+    position: relative;
+    color: rgb(255, 73, 146);
+
+    left: 21px;
+    top: 2vh;
+    text-decoration: underline;
+
+}
+
+.detail {
+    width: 61vw;
+    height: 49vh;
+    background: linear-gradient(to right, rgb(250, 108, 108), rgb(251, 127, 166), rgb(245, 194, 238));
+    position: relative;
+    top: -75px;
+    left: 289px;
+    display: flex;
+    justify-content: start;
+    border-radius: 20px;
+    flex-direction: row;
+    color: white;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-img {
+    width: 80px;
+    border-radius: 20px;
+}
+
+.detail-list {
+    margin: 20px;
+    position: relative;
+    left: 10vw;
+}
+
+.contact {
+    margin-left: 160px;
+
+}
+
+.address {
+    margin-right: -199px;
+}
+
+.name {
+    margin-left: 160px;
+}
+
+.social-link a {
+    position: relative;
+    top: 122px;
+    right: 155px;
+    padding: 3px;
+    text-decoration: none;
+    color: rgb(17, 16, 8);
+    font-size: small;
+    font-family: sans-serif
+}
+
+a .fb-img {
+    width: 13px;
+    position: relative;
+    top: 2vh;
+    margin-left: 170px;
+
+}
+
+a .ig-img {
+    width: 27px;
+    position: relative;
+    top: 2vh;
+    margin-left: 12px;
+
+}
+
+@media screen and (max-width:385px) {
+
+
+    .navbar {
+        height: 15vh;
+    }
+
+    .heading-text {
+        position: relative;
+        top: 7px;
+        right: 40px;
+        font-size: 16px;
+
+    }
+
+    ul li a {
+        position: relative;
+        top: 32px;
+        font-size: 14px;
+    }
+
+    .cntimg {
+        width: 35vw;
+        height: 21vh;
+        margin-top: 8px;
+    }
+
+    .content-about {
+        margin-left: 67px;
+        width: 258px;
+    }
+
+    .head-about {
+        left: 13vw;
+    }
+
+    .content {
+        height: 25vh;
+        margin-top: 11px;
+    }
+
+    .content-text {
+        margin: 7px;
+        font-size: 18px;
+        color: whitesmoke;
+    }
+
+    .about {
+        margin-left: -2px;
+        font-size: 26px;
+        margin-top: 18px;
+    }
+
+    .flower1 {
+        right: 19vh;
+
+    }
+
+    .flower2 {
+        right: -6vh;
+        position: relative;
+        top: -71px;
+        left: 281px;
+
+
+    }
+
+    .detail {
+        left: 59px;
+    }
+
+    .contact-texting {
+        position: relative;
+        color: rgb(255, 73, 146);
+        left: 5px;
+        top: 2vh;
+        text-decoration: underline;
+    }
+
+    .contact {
+
+        margin-left: -40px;
+
+        font-size: 10px;
+    }
+
+    .address {
+        margin-left: -220px;
+        font-size: 10px;
+    }
+
+    .name {
+        margin-left: -46px;
+        font-size: 10px;
+    }
+
+    a .fb-img {
+        width: 13px;
+        position: relative;
+        top: 1vh;
+        margin-left: -3px;
+    }
+
+    a .ig-img {
+        width: 27px;
+        position: relative;
+        top: -22px;
+        margin-left: 129px;
+    }
+
+
+
+}
